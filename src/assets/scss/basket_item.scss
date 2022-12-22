@@ -1,0 +1,30 @@
+.basket-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 10px 30px !important;
+  background: #ebf5ff;
+  width: 100%;
+  border-radius: 30px;
+  gap: 20px;
+  &__title {
+    flex-grow: 1;
+  }
+  &__control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+.btn-close {
+  background: #f05252;
+  &:hover {
+    background: #f98080;
+  }
+}
+.icon {
+  fill: #d1d5db;
+  &:hover {
+    fill: #9ca3af;
+  }
+}

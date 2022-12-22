@@ -1,0 +1,13 @@
+.cart {
+    cursor: pointer;
+    display: flex;
+    gap: 5px;
+    background: #e5e7eb;
+    flex-direction: row;
+    width: 50px;
+    position: fixed;
+    right: 50px;
+    top: 10px;
+    border-radius: 20px;
+    padding: 5px 10px;
+}

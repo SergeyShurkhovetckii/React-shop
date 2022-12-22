@@ -1,4 +1,5 @@
-import { Card } from "./Card";
+import { CardItem } from "./Card";
+import '../assets/scss/productList.scss';
 
 function ProductsList(props) {
   const { products = [] ,addToBacket = Function.prototype } = props;
@@ -7,10 +8,12 @@ function ProductsList(props) {
     return <div>Nothing</div>;
   }
   return (
+    <div className="container">
     <div className="shop">
       {products.map((item) => {
-        return <Card key={item.id} {...item} addToBacket = {addToBacket} />;
+        return <CardItem key={item.id} {...item} addToBacket = {addToBacket} />;
       })}
+      </div>
     </div>
   );
 }

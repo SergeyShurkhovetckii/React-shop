@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #f9fafb;
+  box-shadow: 2px 1px 13px 3px rgb(156 163 175 / 20%);
+  justify-content: center;
+  justify-items: center;
+  text-align: left;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  &__pic {
+    width: 200px;
+    height: 250px;
+    object-fit: contain;
+  }
+  &__title {
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+.card-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.rating {
+  display: flex;
+  gap: 10px;
+}

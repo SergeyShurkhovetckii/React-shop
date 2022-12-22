@@ -1,0 +1,31 @@
+{
+  // Настройки Prettier
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.semi": true,
+  "prettier.printWidth": 100,
+
+  // Настройки ESLint
+  "eslint.packageManager": "yarn",
+  "eslint.format.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.formatOnSave": true,
+  "emmet.triggerExpansionOnTab": true,
+
+  "editor.tabSize": 2,
+  "editor.lineHeight": 28,
+  "editor.wordWrap": "off",
+  "editor.renderWhitespace": "selection",
+  "editor.minimap.enabled": false,
+  "editor.fontLigatures": true,
+  "breadcrumbs.icons": true,
+  "breadcrumbs.showFiles": true,
+  "workbench.tree.indent": 15,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.fontAliasing": "antialiased",
+  "workbench.startupEditor": "none",
+  "workbench.sash.size": 4,
+  "workbench.panel.defaultLocation": "bottom",
+  "editor.fontWeight": "normal"
+}
