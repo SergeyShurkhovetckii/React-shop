@@ -17,7 +17,7 @@ function Header() {
       {/* Логотип Header */}
       <Navbar.Brand className="header-logo">
         <a href="/home">
-          <img className="header-logo__pic" src={logo} alt="logo" />
+          <img className="header-logo__pic" src={logo} alt={logoAlt} />
         </a>
         <div className="text-xl font-semibold">React Shop</div>
       </Navbar.Brand>
