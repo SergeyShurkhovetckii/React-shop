@@ -1,3 +1,4 @@
+@import "./base/all.scss";
 .card {
   display: flex;
   flex-direction: column;
@@ -7,19 +8,19 @@
   justify-items: center;
   text-align: left;
   align-items: center;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 20px;
+  padding-left: rem(10);
+  padding-right: rem(10);
+  border-radius: rem(20);
   &__pic {
-    width: 200px;
-    height: 250px;
+    width: rem(200);
+    height: rem(250);
     object-fit: contain;
   }
   &__title {
-    font-size: 16px;
+    font-size: rem(16);
     font-weight: 500;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: rem(10);
+    padding-bottom: rem(10);
   }
 }
 .card-control {
@@ -27,10 +28,10 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: rem(10);
+  padding-bottom: rem(10);
 }
 .rating {
   display: flex;
-  gap: 10px;
+  gap: rem(10);
 }

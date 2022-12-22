@@ -1,6 +1,7 @@
+@import "./base/all.scss";
 .alert {
   position: fixed;
-  right: 110px;
+  right: rem(110);
   top: 0;
   background: #e5e7eb;
   color: black;

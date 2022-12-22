@@ -1,13 +1,14 @@
+@import "./base/all.scss";
 .cart {
     cursor: pointer;
     display: flex;
-    gap: 5px;
+    gap: rem(5);
     background: #e5e7eb;
     flex-direction: row;
-    width: 50px;
+    width: rem(50);
     position: fixed;
-    right: 50px;
-    top: 10px;
-    border-radius: 20px;
-    padding: 5px 10px;
+    right: rem(50);
+    top: rem(10);
+    border-radius: rem(20);
+    padding: rem(5) rem(10);
 }

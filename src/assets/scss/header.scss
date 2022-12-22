@@ -1,3 +1,5 @@
+
+@import "./base/all.scss";
 .header {
   display: flex;
   justify-content: space-between;
@@ -17,7 +19,7 @@
 .header-logo {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: rem(20);
   &__pic {
     animation: loader 4.25s infinite;
     rotate: 360deg;

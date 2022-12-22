@@ -1,3 +1,4 @@
+@import "./base/all.scss";
 .basket-item {
   display: flex;
   justify-content: space-between;
@@ -5,15 +6,15 @@
   padding: 10px 10px 10px 30px !important;
   background: #ebf5ff;
   width: 100%;
-  border-radius: 30px;
-  gap: 20px;
+  border-radius: rem(30);
+  gap: rem(20);
   &__title {
     flex-grow: 1;
   }
   &__control {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: rem(10);
   }
 }
 .btn-close {

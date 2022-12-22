@@ -1,13 +1,14 @@
+@import "./base/all.scss";
 .basket-container {
   position: fixed;
   z-index: 100;
-  top: 53px;
-  right: 50px;
+  top: rem(53);
+  right: rem(50);
   width: 50%;
   background: #fff;
   border: 1px solid #f9fafb;
-  padding: 10px 30px 30px 30px;
-  border-radius: 20px;
+  padding: rem(10) rem(30) rem(30) rem(30);
+  border-radius: rem(20);
   box-shadow: 4px 4px 12px 10px rgba(34, 60, 80, 0.2);
 }
 .basket {
@@ -16,8 +17,8 @@
   }
   &__close {
     cursor: pointer;
-    border-radius: 20px;
-    padding: 3px;
+    border-radius: rem(20);
+    padding: rem(3);
     background: transparent;
     &:hover {
       background: #e1effe;
@@ -26,14 +27,14 @@
   }
   &__content {
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: rem(20);
+    padding-bottom: rem(20);
   }
   &__link {
     cursor: pointer;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: rem(10);
   }
 }
 .price {
@@ -41,9 +42,9 @@
   justify-content: space-between;
   &__rezult {
     display: flex;
-    gap: 10px;
+    gap: rem(10);
     align-items: center;
-    font-size: 20px;
+    font-size: rem(20);
     color: #f05252;
   }
 }
@@ -51,7 +52,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: rem(10);
+  padding-bottom: rem(10);
   border-bottom: 1px solid #e1effe;
 }
