@@ -16,7 +16,7 @@ function Header() {
     <Navbar className={scroll ? 'header--active ' : 'header'}>
       {/* Логотип Header */}
       <Navbar.Brand className="header-logo">
-        <a href="/home">
+        <a href="index.html">
           <img className="header-logo__pic" src={logo} alt={logoAlt} />
         </a>
         <div className="text-xl font-semibold">React Shop</div>

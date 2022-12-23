@@ -8,8 +8,7 @@
   justify-items: center;
   text-align: left;
   align-items: center;
-  padding-left: rem(10);
-  padding-right: rem(10);
+  padding: rem(10);
   border-radius: rem(20);
   &__pic {
     width: rem(200);
@@ -19,8 +18,7 @@
   &__title {
     font-size: rem(16);
     font-weight: 500;
-    padding-top: rem(10);
-    padding-bottom: rem(10);
+    padding: rem(10);
   }
 }
 .card-control {
@@ -28,8 +26,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding-top: rem(10);
-  padding-bottom: rem(10);
+  padding: rem(10);
 }
 .rating {
   display: flex;

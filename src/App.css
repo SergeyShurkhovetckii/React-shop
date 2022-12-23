@@ -11,18 +11,7 @@
   display: flex;
   justify-content: space-between;
 }
-.close-btn {
-  cursor: pointer;
-  background: red;
-  padding: 10px;
-}
-.container {
-  margin: 0 auto;
-}
-h1 {
-  font-size: 18px;
-  color: red;
-}
+
 .title {
   padding-top: 100px;
 }
