@@ -5,6 +5,10 @@ import '../assets/scss/card.scss';
 
 function CardItem(props) {
   const { id, title, image, price, rating, addToBacket = Function.prototype } = props;
+  function click() {
+    console.log('click');
+  }
+
   // Изменения кнопки в карточке при добавлении в корзину
   return (
     <div className="card">
@@ -12,7 +16,7 @@ function CardItem(props) {
       <div className="">
         <h5 className="card__title">{title}</h5>
         {/* Рейтинг */}
-        <div className="rating">
+        <div className="rating" onClick={() => click()}>
           Rating
           <span>{rating.rate}</span>
         </div>
