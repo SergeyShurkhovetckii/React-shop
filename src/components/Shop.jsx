@@ -3,7 +3,7 @@ import axios from 'axios';
 import { API_URL } from '../Data/config';
 import { Loading } from './Loading';
 import { ProductsList } from './ProductsList';
-import { Cart } from './Cart';
+import { Header } from './Header/Header';
 import { BasketList } from './BasketList';
 import { Alerts } from './Alert';
 import '../App.css';
@@ -102,19 +102,17 @@ function Shop() {
 
   return (
     <>
-      <Cart quantity={order.length} handleBasketShow={handleBasketShow} />
-      <div>
-        {loading ? <Loading /> : <ProductsList products={products} addToBacket={addToBacket} />}
-        {isBasketShow && (
-          <BasketList
-            order={order}
-            handleBasketShow={handleBasketShow}
-            removeBacket={removeBacket}
-            incQuantity={incQuantity}
-            decQuantity={decQuantity}
-          />
-        )}
-      </div>
+      <Header order={order} handleBasketShow={handleBasketShow} />
+      {loading ? <Loading /> : <ProductsList products={products} addToBacket={addToBacket} />}
+      {isBasketShow && (
+        <BasketList
+          order={order}
+          handleBasketShow={handleBasketShow}
+          removeBacket={removeBacket}
+          incQuantity={incQuantity}
+          decQuantity={decQuantity}
+        />
+      )}
       {alertName && <Alerts name={alertName} closeAlert={closeAlert} />}
     </>
   );

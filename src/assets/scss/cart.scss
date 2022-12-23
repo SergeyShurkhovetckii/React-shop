@@ -3,12 +3,14 @@
     cursor: pointer;
     display: flex;
     gap: rem(5);
-    background: #e5e7eb;
+    background: $light-gray;
     flex-direction: row;
-    width: rem(50);
-    position: fixed;
-    right: rem(50);
-    top: rem(10);
+    width: auto;
+    height: rem(32);
     border-radius: rem(20);
     padding: rem(5) rem(10);
+    fill: $dark-gray;
+}
+.quantity {
+    color: $dark-gray;
 }
