@@ -11,6 +11,11 @@
     padding: rem(5) rem(10);
     fill: $dark-gray;
 }
+.icon {
+    &:hover {
+        opacity: 0.9;
+    }
+}
 .quantity {
     color: $dark-gray;
 }

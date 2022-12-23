@@ -1,8 +1,8 @@
 @import "./base/all.scss";
 .alert {
   position: fixed;
-  right: rem(110);
-  top: 0;
+  right: 0;
+  bottom: 0;
   background: #e5e7eb;
   color: black;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;

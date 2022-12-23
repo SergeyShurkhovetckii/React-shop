@@ -36,6 +36,9 @@
   gap: rem(20);
   align-items: center;
 }
+.login-btn {
+  cursor: pointer;
+}
 
 @keyframes loader {
   0% {
