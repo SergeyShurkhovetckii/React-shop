@@ -1,4 +1,8 @@
 function About() {
-  return <div>Abouts</div>;
+  return (
+    <>
+      <div>Abouts</div>
+    </>
+  );
 }
 export { About };

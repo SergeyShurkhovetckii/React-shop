@@ -6,9 +6,8 @@ import logo from '../../assets/img/logo.svg';
 import '../../assets/scss/header.scss';
 import { Cart } from '../Cart';
 import { Favorites } from '../Favorites';
-// Routing configuration
-// import { Routes, Route, Link } from 'react-router-dom';
-// import { About } from '../../assets/pages/About';
+// Route link
+import { Link } from 'react-router-dom';
 
 function Header(props) {
   const { order, handleBasketShow = Function.prototype } = props;
@@ -31,13 +30,10 @@ function Header(props) {
           <div className="text-xl font-semibold header__title">React Shop</div>
         </Navbar.Brand>
         {/* Menu */}
-        <Navbar.Collapse>
-          <Navbar.Link href="/" active={true}>
-            Главная
-          </Navbar.Link>
-          <Navbar.Link href="/shop">Каталог</Navbar.Link>
-          <Navbar.Link href="/navbars">О проекте</Navbar.Link>
-        </Navbar.Collapse>
+        <div className="header__menu">
+          <Link to="/">Главная</Link>
+          <Link to="/about">О Проекте </Link>
+        </div>
         <div className="header-control">
           {/* Избранное */}
           <Tooltip trigger="hover" content="Избранное">

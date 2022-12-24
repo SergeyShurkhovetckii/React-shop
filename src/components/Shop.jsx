@@ -6,6 +6,7 @@ import { ProductsList } from './ProductsList';
 import { Header } from './Header/Header';
 import { BasketList } from './BasketList';
 import { Alerts } from './Alert';
+// Routing configuration
 import '../App.css';
 
 function Shop() {
